@@ -1,9 +1,12 @@
-import '../styles/global.css';
+import "../styles/global.css";
 
-import type { AppProps } from 'next/app';
+import type { NextPage } from "next";
+import type { AppProps } from "next/app";
 
-const MyApp = ({ Component, pageProps }: AppProps) => (
-  <Component {...pageProps} />
-);
+import { wrapper } from "../redux/store";
 
-export default MyApp;
+const MyApp: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
+  return <Component {...pageProps} />;
+};
+
+export default wrapper.withRedux(MyApp);
