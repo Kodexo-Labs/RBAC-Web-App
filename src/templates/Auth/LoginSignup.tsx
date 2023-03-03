@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import { SignIn } from './login';
-import { Signup } from './signup';
+import { SignIn } from "./login";
+import { Signup } from "./signup";
 
 type TypeLoginSignup = {
   tabStatus: Number;

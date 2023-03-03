@@ -1,4 +1,4 @@
-import { Base } from "../templates/base";
+import { Base } from "../templates/Auth";
 
 const Index = () => <Base />;
 

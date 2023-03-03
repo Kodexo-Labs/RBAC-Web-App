@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import Dropdown from '../components/dropdown';
-import { Section } from '../layouts/Section';
+import Dropdown from "../../components/dropdown";
+import { Section } from "../../layouts/Section";
 
 // type TypeSigup = {
 //   tabStatus: Number;
